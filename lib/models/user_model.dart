@@ -1,5 +1,4 @@
 import 'dart:convert';
-
 import 'package:exemple_api_const/models/address_model.dart';
 import 'package:exemple_api_const/models/company_model.dart';
 

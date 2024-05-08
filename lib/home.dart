@@ -1,4 +1,4 @@
-import 'package:exemple_api_const/models/model.dart';
+import 'package:exemple_api_const/models/user_model.dart';
 import 'package:exemple_api_const/service/api_service.dart';
 import 'package:flutter/material.dart';
 
@@ -12,7 +12,7 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  late List<Usermodel>? usermodel = [];
+  List<Usermodel>? usermodel = [];
   @override
   void initState() {
     super.initState();
