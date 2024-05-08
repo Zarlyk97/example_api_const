@@ -21,9 +21,11 @@ class _MyHomePageState extends State<MyHomePage> {
 
   void getData() async {
     usermodel = (await ApiService().getUsers())!;
-    Future.delayed(const Duration(seconds: 1)).then((value) => setState(
-          () {},
-        ));
+    Future.delayed(const Duration(seconds: 1)).then(
+      (value) => setState(
+        () {},
+      ),
+    );
   }
 
   @override
